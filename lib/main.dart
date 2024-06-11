@@ -78,9 +78,9 @@ class _ScreenState extends State<HomeScreen> {
               _s,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                color: Theme.of(context).colorScheme.secondary,
+                color: Colors.white,
                 fontSize: 20,
-                background: Paint()..color = Colors.white,
+                background: Paint()..color = Colors.redAccent,
               ),
             ),
             const SizedBox(height: 20),
